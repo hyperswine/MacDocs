@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "name": "Debug MacDocs",
+            "program": "${workspaceFolder:MacDocs}/.build/debug/MacDocs",
+            "args": [],
+            "cwd": "${workspaceFolder:MacDocs}",
+            "preLaunchTask": "swift: Build Debug MacDocs"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "name": "Release MacDocs",
+            "program": "${workspaceFolder:MacDocs}/.build/release/MacDocs",
+            "args": [],
+            "cwd": "${workspaceFolder:MacDocs}",
+            "preLaunchTask": "swift: Build Release MacDocs"
+        }
+    ]
+}
