@@ -1,10 +1,3 @@
-//
-//  MacDocsTests.swift
-//  MacDocsTests
-//
-//  Created by Jason Qin on 8/4/2023.
-//
-
 import XCTest
 @testable import MacDocs
 

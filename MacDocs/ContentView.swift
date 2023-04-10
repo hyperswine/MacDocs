@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  MacDocs
-//
-//  Created by Jason Qin on 8/4/2023.
-//
-
 import SwiftUI
 
 struct ContentView: View {
@@ -14,6 +7,9 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
             Text("Hello, world!")
+            Text("Hi")
+            Image(systemName: "globe")
+                .foregroundColor(.red)
         }
         .padding()
     }

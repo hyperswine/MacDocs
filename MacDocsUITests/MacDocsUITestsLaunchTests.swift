@@ -1,10 +1,3 @@
-//
-//  MacDocsUITestsLaunchTests.swift
-//  MacDocsUITests
-//
-//  Created by Jason Qin on 8/4/2023.
-//
-
 import XCTest
 
 final class MacDocsUITestsLaunchTests: XCTestCase {
